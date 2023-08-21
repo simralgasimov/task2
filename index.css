@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 162px 0 214px 121px;
+}
+.container h1 {
+  margin-bottom: 133px;
+  color: #000;
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 101.385%;
+}
+
+.list-container {
+  display: flex;
+}
+.list-container li {
+  margin-right: 122px;
+  list-style-type: none;
+}
+.list-container li:first-child {
+  width: 223px;
+}
+
+.list-container li:nth-child(2) {
+  width: 260px;
+}
+.list-container li:last-child {
+  width: 232px;
+}
+.container li h2 {
+  margin-bottom: 5px;
+  color: #1e4681;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 32.5px */
+}
+.container li p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 94px 0 128px 70px;
+  }
+
+  .container h1 {
+    font-size: 32px;
+    margin-bottom: 70px;
+  }
+
+  .list-container li {
+    margin-right: 50px;
+  }
+
+  .container li h2 {
+    font-size: 15px;
+  }
+
+  .container li p {
+    font-size: 11px;
+  }
+  .list-container li:first-child {
+    width: 153px;
+  }
+
+  .list-container li:nth-child(2) {
+    width: 172px;
+  }
+  .list-container li:last-child {
+    width: 142px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 73px 0 73px 35px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .list-container li {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .container li h2 {
+    font-size: 12px;
+  }
+  .container li p {
+    font-size: 10px;
+  }
+  .list-container {
+    flex-direction: column;
+  }
+
+  .list-container li:first-child {
+    width: 180px;
+  }
+
+  .list-container li:nth-child(2) {
+    width: 165px;
+  }
+  .list-container li:last-child {
+    width: 159px;
+  }
+}
